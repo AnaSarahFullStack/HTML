@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
     <title>Ferramentas de IA - Cruzeiro do Sul Virtual</title>
 </head>
 <body>
     <header>
         <p>Acessibilidade</p>
-        <p>Cursos grátis</p>
+        <p class="destaque-cta">Cursos grátis</p>
         <p>Sou Aluno</p>
         <p>Sou Candidato</p>
         <p>Outros</p>
@@ -17,41 +18,52 @@
         </form>
     </header>
      <main>
-            <section>
-                <img src="htps://www.cruzeirodosulvirtual.com.br/wp-content/themes/cruzeiroportais2019/assets/imagens/marcas/marcaCruzeirdosulvirtualVariacaoReduzida.svg" alt="Logotipo da Instituição"> 
+            <section class="topo-pdp">
+                <section class="topo-content">
+                <img src="https://www.cruzeirodosulvirtual.com.br/wp-content/themes/cruzeiroportais2019/assets/imagens/marcas/marcaCruzeirdosulvirtualVariacaoReduzida.svg" alt="Logotipo da Instituição"> 
                 <h1>Ferramentas de IA</h1>
                     <div>
                 <ol>
                     <li><a href="https://www.cruzeirodosulvirtual.com.br/">Home</a></li>
+                    <li>></li>
                     <li><a href="https://www.cruzeirodosulvirtual.com.br/cursos-livres/">Cursos Livres</a></li>
-                    <li><p>Ferramentas de IA </p></li>
+                    <li>Ferramentas de IA</li>
                 </ol>
                     </div>
             </section>
+        </section>
      </main>
      <section>
-        <div>
-            <img src="htps://www.cruzeirodosulvirtual.com.br/wp-content/uploads/2023/05/CSEDICON0121PRETO.svg" alt="desenho de um cérebro">
-            <p>Área</p>
-            <p>Comunicação</p>
-        </div>
-        <div>
-            <img src="htps://www.cruzeirodosulvirtual.com.br/wp-content/uploads/2023/05/CSEDICON0121PRETO.svg" alt="desenho de um professor">
-            <p>Aula</p>
-            <p>EAD 100% on-line</p>
-        </div>
-        <div>
-            <img src="htps://www.cruzeirodosulvirtual.com.br/wp-content/uploads/2023/05/CSEDICON0121PRETO.svg" alt="desenho de uma folha de papel">
-            <p>Inscrições</p>
-            <p> de 08/12/2023 a 15/06/2024</p>
-        </div>
+            <section id="info-curso">
+                <ul>
+                    <li>
+            <img src="https://www.cruzeirodosulvirtual.com.br/wp-content/uploads/2023/05/CSEDICON0121PRETO.svg" alt="desenho de um cérebro">
+                    </li>
+                    <li class="text-bold">Área</li>
+                    <li>Comunicação</li>
+                    </ul>
+                    <ul>
+                        <li>
+            <img src="https://www.cruzeirodosulvirtual.com.br/wp-content/uploads/2023/05/CSEDICON0121PRETO.svg" alt="desenho de um professor">
+            </li>
+            <li class="text-bold">Aula</li>
+            <li>EAD 100% on-line</li>
+            </ul>
+            <ul>
+                <li>
+            <img src="https://www.cruzeirodosulvirtual.com.br/wp-content/uploads/2023/05/CSEDICON0121PRETO.svg" alt="desenho de uma folha de papel">
+            </li>
+            <li class="text-bold">Inscrições</li>
+            <li> de 14/06/2024 a 13/11/2024</li>
+            </ul>
 
-        <section>
+        <section id="Objetivo">
           <h3>Objetivo do curso</h3>
-          <p>Desvende o potencial ilimitado da inteligência artificial com o nosso curso livre "Ferramentas de IA.
+          <hr class="separador">
+           <p>Desvende o potencial ilimitado da inteligência artificial com o nosso curso livre "Ferramentas de IA.
             Projetado para aqueles que desejam mergulhar no mundo fascinante da IA, este curso oferece uma jornada
-            dinâmica através das principais Ferramentas e conceitos ue impulsionam a revolução tecnlógica atual. Dos
-            fundamenos aos avanços mais recentes, os participantes serão capacitados a dominar as técnicas essenciais
+            dinâmica através das principais Ferramentas e conceitos ue impulsionam a revolução tecnológica atual. Dos
+            fundamentos aos avanços mais recentes, os participantes serão capacitados a dominar as técnicas essenciais
             para desenvolver soluções inteligentes e inovadoras.</p>
             <p>
                 Ao longo do programa, os alunos explorarão casos de uso reais, mergulhando em estudos de caso e projetos
@@ -60,15 +72,16 @@
                 e automação, este curso oferece uma visão abrangente para aqueles que desejam se destacar no cenário tecnológico
                 em constante evolução.
             </p>
-            <p>
+            <p><b>
                 Prepare-se para liderar a próxima onda de inovação com o curso "Ferramentas de IA". Seja vcê um profissional
                 buscando aprimorar suas habilidades ou um entusiasta da tecnologia procurando mergulhar mais fundo no mundo da
                 IA, este curso oferece o conhecimento e as ferramentas necessárias para transformar suas ideias em realidade e
                 moldar o futuro com inteligência artificial.
-            </p>
+            </b></p>
         </section>
      </section>
-     <section>
+     <section id="general-form-container">
+        <section id="form-container">
         <h3>Ainda tem dúvidas?</h3>
         <hr>
         <p>Para que não reste mais nenhuma, confira as informações que separamos pra você!</p>
@@ -77,15 +90,16 @@
         <p>Mande sua pergunta preenchendo os campos abaixo. Em breve nós entraremos em contato.</p>
      
         <form action="">
-            <input type="text" placeholder="Nome Completo">
-            <input type="email" placeholder="E-mail">
-            <input type="text" placeholder="Telefone com DDD">
-            <select>
-                <option>Selecine o país</option>
+            <div><input class="input-name" type="text" placeholder= "Nome Completo"></div>
+            <div>
+                <input class="form-input" type="email" placeholder="E-mail">
+                <input class="form-input" type="text" placeholder="Telefone com DDD">
+            <select class="form-select select-impar">
+                <option>Selecione o país</option>
                 <option>Brasil</option>
                 <option>Japão</option>
             </select>
-            <select>
+            <select class="form-select">
                 <option>Selecine seu Estado</option>
                 <option>Amazonas</option>
                 <option>Goiás</option>
@@ -93,35 +107,37 @@
                 <option>Santa Catarina</option>
                 <option>São Paulo</option>
             </select>
-            <select>
+            <select class="form-select select-impar">
                 <option>Selecione sua Cidade</option>
                 <option>Cidade 1</option>
                 <option>Cidade 2</option>
                 <option>Cidade 3</option>
             </select>
-            <select>
+            <select class="form-select">
                 <option>Selecione um Polo</option>
                 <option>Polo 1</option>
                 <option>Polo 2</option>
             </select>
-            <select>
+            <select class="form-select select-impar">
                 <option>Quanto ao curso</option>
                 <option>Estou totalmente decidido</option>
                 <option>Estou parcialmente decidido</option>
                 <option>Estou totalmente em dúvida</option>
             </select>
-            <select>
-                <option>Quanto à atividade profissionaltion>
+            <select class="form-select">
+                <option>Quanto à atividade profissional</option>
                 <option>Trabalho, mas quero melhores oportunidades</option>
                 <option>Trabalho, mas a Área que estou não me satisfaz</option>
                 <option>Não trabalho</option>
             </select>
+            </div>
 
-            <textarea placeholder="Escreva aqui sua mensagem"></textarea>
+            <div><textarea placeholder="Escreva aqui sua mensagem"></textarea></div>
         
-          <button type="submit"> Enviar</button>
+          <div><button type="submit"> Enviar</button></div>
         </form>
-    </section> 
+    </section>
+</section>  
 </body>
 </html>
 
